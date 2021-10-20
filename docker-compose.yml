@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    container_name: hexo
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: on-failure
+    volumes:
+      - ./b1ank1108.github.io:/var/www/hexo
+      - ./letsencrypt:/etc/letsencrypt
+      - ./nginx/hexo.conf:/etc/nginx/nginx.conf
