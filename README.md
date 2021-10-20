@@ -64,7 +64,7 @@ $ certbot --nginx
 If you are first install,  just run like
 
 ```bash
-$ certbot --nginx -d "blg.b1ank.top"
+$ certbot --nginx -d "blog.b1ank.top"
 ```
 
 You can renew your certificate like
