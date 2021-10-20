@@ -28,7 +28,7 @@ $ docker-compose up -d
 
 Set your blog's repository webhook like
 
-![image-20211020210146790](README/image-20211020210146790.png)
+![image-20211020210146790](image-20211020210146790.png)
 
 ### step 5
 
