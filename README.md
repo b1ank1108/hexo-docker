@@ -12,7 +12,7 @@ server_name blog.b1ank.top;
 
 ### step 2
 
-Clone your repository
+Clone your repository and change `hexo-deploy.sh` 
 
 ```bash
 $ git clone https://github.com/xxxxx/xxxxx.github.io

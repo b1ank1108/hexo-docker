@@ -1,5 +1,5 @@
 #!/bin/bash
-path=./b1ank1108.github.io
+path=./CHANGE ME!!!!!.github.io
 cd $path && git pull
 if [[ $? -eq 0 ]]; then
     echo "pull success !"
