@@ -77,7 +77,7 @@ $ certbot renew --quiet
 $ echo "0 0 1 * * /usr/bin/certbot renew --quiet" >> /etc/crontabs/root
 ```
 
-### reference
+### Reference
 
 [Hexo部署到私人服务器解决方案](https://www.cnblogs.com/qmdx00/p/13472355.html)
 
